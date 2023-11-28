@@ -91,10 +91,11 @@ export const ProductModule: React.FC = () => {
               <h1 className="text-title-large text-center">Risa Lestari</h1>
 
               <p className="mt-3 mb-6 text-center">
-                "GrowBiz telah menjadi mitra bisnis yang tak ternilai bagi saya.
-                Dengan akses ke berbagai alat, pelatihan, dan komunitas
+                "JelajahBudaya telah menjadi mitra bisnis yang tak ternilai bagi
+                saya. Dengan akses ke berbagai alat, pelatihan, dan komunitas
                 pengusaha yang luar biasa, saya telah berhasil meningkatkan
-                penjualan bisnis saya secara signifikan. Terima kasih GrowBiz!"
+                penjualan bisnis saya secara signifikan. Terima kasih
+                JelajahBudaya!"
               </p>
             </div>
           </div>
@@ -119,7 +120,7 @@ export const ProductModule: React.FC = () => {
               </h1>
               <p className="mt-3 mb-6 text-center">
                 "Saya awalnya kesulitan mengelola keuangan bisnis saya, tetapi
-                GrowBiz telah membantu saya dalam mengotomatisasi proses
+                JelajahBudaya telah membantu saya dalam mengotomatisasi proses
                 keuangan dan mengurangi risiko. Ini sangat membantu saya fokus
                 pada pertumbuhan bisnis."
               </p>
@@ -143,9 +144,10 @@ export const ProductModule: React.FC = () => {
             <div className="flex flex-col gap-x-6 px-6 pt-6">
               <h1 className="text-title-large text-center">Ramanti Prajna</h1>
               <p className="mt-3 mb-6 text-center">
-                "Saya telah mengikuti beberapa kursus online di GrowBiz dan ini
-                benar-benar memperkaya pengetahuan saya tentang manajemen
-                bisnis. Sumber daya pelatihan mereka sangat berkualitas."
+                "Saya telah mengikuti beberapa kursus online di JelajahBudaya
+                dan ini benar-benar memperkaya pengetahuan saya tentang
+                manajemen bisnis. Sumber daya pelatihan mereka sangat
+                berkualitas."
               </p>
             </div>
           </div>
@@ -167,7 +169,7 @@ export const ProductModule: React.FC = () => {
             <div className="flex flex-col gap-x-6 px-6 pt-6">
               <h1 className="text-title-large text-center">John Doe</h1>
               <p className="mt-3 mb-6 text-center">
-                "GrowBiz memberikan saya kesempatan untuk terhubung dengan
+                "JelajahBudaya memberikan saya kesempatan untuk terhubung dengan
                 investor dan mendapatkan modal yang saya butuhkan untuk
                 mengembangkan bisnis saya. Saya sangat berterima kasih atas
                 dukungan mereka."

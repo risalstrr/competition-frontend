@@ -72,16 +72,16 @@ export default function Hero() {
               {currentKeyword}
             </p>
             <h1 className="text-grey-dark lg:text-display-medium text-display-small font-bold mr-3 md:my-0 my-auto">
-              GrowBiz{' '}
+              JelajahBudaya{' '}
             </h1>
 
             <br />
             <p className="text-left lg:text-xl md:text-xl text-lg">
-              GrowBiz memberikan pelatihan dan pembelajaran kepada pemilik UMKM
-              (Usaha Mikro, Kecil, dan Menengah) dan karyawan mereka. GrowBiz
-              sebagai pusat komprehensif yang membantu UMKM tumbuh, belajar,
-              berkolaborasi, dan mencapai tujuan bisnis dan pembangunan
-              berkelanjutan mereka.
+              JelajahBudaya memberikan pelatihan dan pembelajaran kepada pemilik
+              UMKM (Usaha Mikro, Kecil, dan Menengah) dan karyawan mereka.
+              JelajahBudaya sebagai pusat komprehensif yang membantu UMKM
+              tumbuh, belajar, berkolaborasi, dan mencapai tujuan bisnis dan
+              pembangunan berkelanjutan mereka.
             </p>
             <br />
             <br />

@@ -17,7 +17,7 @@ export const NavBar: React.FC = () => {
       >
         <Navbar.Brand href="/">
           <h1 className="self-center whitespace-nowrap ml-3 text-purple-light lg:text-headline-medium md:text-headline-medium text-title-large">
-            GrowBiz
+            JelajahBudaya
           </h1>
         </Navbar.Brand>
         <div className="flex md:order-2 sm:space-x-3">

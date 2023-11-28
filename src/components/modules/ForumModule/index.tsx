@@ -143,12 +143,12 @@ export const ForumModule: React.FC = () => {
           <div className="flex lg:flex-row flex-col justify-center items-center">
             <div className="flex flex-col">
               <h1 className="text-grey-dark lg:text-display-medium text-display-small font-bold mr-3 md:my-0 my-auto">
-                GrowBiz Forums <p className="inline"></p>
+                JelajahBudaya Forums <p className="inline"></p>
               </h1>
 
               <p className="text-left lg:text-xl md:text-xl text-lg mt-5">
-                Fitur "Forum" di platform GrowBiz adalah ruang diskusi daring
-                yang dirancang untuk memfasilitasi interaksi dan berbagi
+                Fitur "Forum" di platform JelajahBudaya adalah ruang diskusi
+                daring yang dirancang untuk memfasilitasi interaksi dan berbagi
                 pengetahuan antara pemilik UMKM, karyawan, ahli industri, dan
                 berbagai pemangku kepentingan lainnya.
               </p>

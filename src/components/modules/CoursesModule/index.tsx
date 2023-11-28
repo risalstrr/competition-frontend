@@ -82,11 +82,11 @@ export const CoursesModule: React.FC = () => {
           <div className="flex lg:flex-row flex-col justify-center items-center">
             <div className="flex flex-col sm:mt-14">
               <h1 className="text-grey-dark lg:text-left text-center lg:text-display-medium text-display-small font-bold mr-3 md:my-0 my-auto">
-                GrowBiz Courses
+                JelajahBudaya Courses
               </h1>
               <br />
               <p className="text-left lg:text-xl md:text-xl text-lg mt-5">
-                Fitur "Course" adalah komponen dalam platform GrowBiz yang
+                Fitur "Course" adalah komponen dalam platform JelajahBudaya yang
                 memungkinkan pemilik UMKM dan karyawan mereka untuk mengakses
                 materi pelatihan, kursus, atau modul pembelajaran yang dirancang
                 untuk meningkatkan pengetahuan dan keterampilan mereka dalam
@@ -116,11 +116,11 @@ export const CoursesModule: React.FC = () => {
             Daftar Courses
           </h1>
           <p className="text-center lg:text-xl md:text-xl lg:px-32 px-10 text-lg mt-5">
-            Fitur "Course" di GrowBiz memiliki potensi besar untuk memberdayakan
-            pemilik UMKM dan karyawan mereka dengan pengetahuan dan keterampilan
-            yang diperlukan untuk mengembangkan bisnis mereka. Ini merupakan
-            langkah penting dalam mendukung pertumbuhan ekonomi dan pencapaian
-            tujuan pembangunan berkelanjutan.
+            Fitur "Course" di JelajahBudaya memiliki potensi besar untuk
+            memberdayakan pemilik UMKM dan karyawan mereka dengan pengetahuan
+            dan keterampilan yang diperlukan untuk mengembangkan bisnis mereka.
+            Ini merupakan langkah penting dalam mendukung pertumbuhan ekonomi
+            dan pencapaian tujuan pembangunan berkelanjutan.
           </p>
           <div className="grid grid-cols-1 mb-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-1 gap-y-8">
             {/* {workshops ? (

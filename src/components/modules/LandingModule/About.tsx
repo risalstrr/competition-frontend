@@ -16,7 +16,7 @@ export default function About() {
         />
         <div className="lg:pl-32 md:pl-16 pl-3">
           <h1 className="text-center md:text-left relative lg:text-display-medium mb-10 md:text-display-small text-display-small font-bold leading-none text-purple-light">
-            GrowBiz memfasilitasi koneksi dengan investor yang membantu
+            JelajahBudaya memfasilitasi koneksi dengan investor yang membantu
             pengusaha mengatasi hambatan keuangan dalam pertumbuhan bisnis
             mereka
           </h1>
@@ -24,10 +24,10 @@ export default function About() {
             href="#2"
             className="block relative text-center md:text-left group-hover:text-purple-500 transition-colors duration-200 2xl:pr-[30vw] lg:pr-32 md:pr-8 pr-3"
           >
-            GrowBiz memberikan pengusaha UMKM akses ke berbagai sumber daya dan
-            layanan tambahan yang memungkinkan mereka untuk berbagi pengalaman
-            dan pengetahuan dengan sesama pengusaha, pelatihan online yang
-            membantu mereka meningkatkan keterampilan bisnis, dan layanan
+            JelajahBudaya memberikan pengusaha UMKM akses ke berbagai sumber
+            daya dan layanan tambahan yang memungkinkan mereka untuk berbagi
+            pengalaman dan pengetahuan dengan sesama pengusaha, pelatihan online
+            yang membantu mereka meningkatkan keterampilan bisnis, dan layanan
             inkubasi yang mendukung perkembangan bisnis startup.
           </a>
         </div>
@@ -45,7 +45,7 @@ export default function About() {
         />
         <div className="lg:pl-32 md:pl-16 pl-3">
           <h1 className="text-center md:text-left relative lg:text-display-medium mb-10 md:text-display-small text-display-small font-bold leading-none text-purple-light">
-            GrowBiz memfasilitasi koneksi dengan investor yang membantu
+            JelajahBudaya memfasilitasi koneksi dengan investor yang membantu
             pengusaha mengatasi hambatan keuangan dalam pertumbuhan bisnis
             mereka
           </h1>
@@ -53,10 +53,10 @@ export default function About() {
             href="#2"
             className="block relative text-center md:text-left group-hover:text-purple-500 transition-colors duration-200 2xl:pr-[30vw] lg:pr-32 md:pr-8 pr-3"
           >
-            GrowBiz memberikan pengusaha UMKM akses ke berbagai sumber daya dan
-            layanan tambahan yang memungkinkan mereka untuk berbagi pengalaman
-            dan pengetahuan dengan sesama pengusaha, pelatihan online yang
-            membantu mereka meningkatkan keterampilan bisnis, dan layanan
+            JelajahBudaya memberikan pengusaha UMKM akses ke berbagai sumber
+            daya dan layanan tambahan yang memungkinkan mereka untuk berbagi
+            pengalaman dan pengetahuan dengan sesama pengusaha, pelatihan online
+            yang membantu mereka meningkatkan keterampilan bisnis, dan layanan
             inkubasi yang mendukung perkembangan bisnis startup.
           </a>
         </div>

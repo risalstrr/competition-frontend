@@ -7,15 +7,15 @@ export default function Service() {
       {' '}
       <div className="w-full lg:w-1/2">
         <h1 className="text-center lg:text-left relative lg:text-display-medium md:text-display-small text-display-small font-bold leading-none text-purple-light">
-          Kenapa harus pilih GrowBiz?
+          Kenapa harus pilih JelajahBudaya?
         </h1>
         <p className="my-5 text-center lg:text-left">
-          GrowBiz adalah platform yang secara khusus dirancang untuk memenuhi
-          kebutuhan bisnis Usaha Mikro, Kecil, dan Menengah yang biasa disebut
-          UMKM. Dalam GrowBiz, Anda dapat memperoleh pengetahuan baru,
-          berkolaborasi dengan sesama pengusaha, mengelola keuangan dengan lebih
-          efisien, dan bahkan mendapatkan akses ke modal yang diperlukan untuk
-          pertumbuhan bisnis Anda, semuanya dalam satu platform yang mudah
+          JelajahBudaya adalah platform yang secara khusus dirancang untuk
+          memenuhi kebutuhan bisnis Usaha Mikro, Kecil, dan Menengah yang biasa
+          disebut UMKM. Dalam JelajahBudaya, Anda dapat memperoleh pengetahuan
+          baru, berkolaborasi dengan sesama pengusaha, mengelola keuangan dengan
+          lebih efisien, dan bahkan mendapatkan akses ke modal yang diperlukan
+          untuk pertumbuhan bisnis Anda, semuanya dalam satu platform yang mudah
           digunakan.
         </p>
         <div className="flex flex-col justify-center items-center">
@@ -48,14 +48,14 @@ export default function Service() {
               <div className="text-center space-y-2 sm:text-left">
                 <div className="space-y-3 p-5">
                   <Image
-                    src={'/assets/images/teamwork.png'}
+                    src={'/assets/images/bendera.png'}
                     width={350}
                     height={350}
                     alt="foto"
                     className="w-[70px]"
                   />
                   <p className="text-lg text-black font-semibold">
-                    GrowBiz memberikan akses yang mudah bagi pemilik UMKM
+                    JelajahBudaya memberikan akses yang mudah bagi pemilik UMKM
                   </p>
                 </div>
               </div>
@@ -67,14 +67,14 @@ export default function Service() {
                 <div className="space-y-3 p-5">
                   <p className="text-lg text-black font-semibold">
                     <Image
-                      src={'/assets/images/msmes.png'}
+                      src={'/assets/images/msmes=.png'}
                       width={350}
                       height={350}
                       alt="foto"
                       className="w-[70px]"
                     />
-                    GrowBiz membantu UMKM dalam mencapai pertumbuhan ekonomi
-                    yang berkelanjutan
+                    JelajahBudaya membantu UMKM dalam mencapai pertumbuhan
+                    ekonomi yang berkelanjutan
                   </p>
                 </div>
               </div>
@@ -94,7 +94,7 @@ export default function Service() {
                 className="w-[70px]"
               />
               <p className="text-lg text-black font-semibold">
-                GrowBiz menyediakan berbagai fitur dan layanan yang saling
+                JelajahBudaya menyediakan berbagai fitur dan layanan yang saling
                 terkait
               </p>
             </div>

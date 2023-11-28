@@ -153,12 +153,12 @@ export const VendorModule: React.FC = () => {
             Daftar Vendor
           </h1>
           <p className="text-center lg:text-xl md:text-xl lg:px-32 px-10 text-lg mt-5">
-            Dengan adanya fitur "Vendor", Aplikasi GrowBiz memberikan kesempatan
-            kepada UMKM dan penyedia layanan lainnya untuk mengembangkan bisnis
-            mereka secara online, mencapai lebih banyak pelanggan, dan
-            meningkatkan efisiensi operasional. Ini merupakan salah satu cara
-            untuk mendukung pertumbuhan ekonomi dan mencapai tujuan pembangunan
-            berkelanjutan (SDGs).
+            Dengan adanya fitur "Vendor", Aplikasi JelajahBudaya memberikan
+            kesempatan kepada UMKM dan penyedia layanan lainnya untuk
+            mengembangkan bisnis mereka secara online, mencapai lebih banyak
+            pelanggan, dan meningkatkan efisiensi operasional. Ini merupakan
+            salah satu cara untuk mendukung pertumbuhan ekonomi dan mencapai
+            tujuan pembangunan berkelanjutan (SDGs).
           </p>
 
           <div className="lg:flex lg:flex-row md:grid md:grid-cols-3 sm:grid sm:grid-cols-2 lg:p-10 justify-center mx-auto m-10 gap-5 lg:overflow-x-auto lg:w-10/12 md:w-10/12 w-full">

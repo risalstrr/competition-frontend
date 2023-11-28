@@ -40,7 +40,7 @@ export const WorkshopsModule: React.FC = () => {
               <p className="text-left lg:text-xl md:text-xl text-lg">
                 Memberikan pelatihan dan pembelajaran kepada pemilik UMKM (Usaha
                 Mikro, Kecil, dan Menengah) serta karyawan mereka. Ini merupakan
-                bagian penting dari upaya GrowBiz untuk meningkatkan
+                bagian penting dari upaya JelajahBudaya untuk meningkatkan
                 keterampilan dan pengetahuan dalam rangka mendukung pertumbuhan
                 bisnis UMKM
               </p>
@@ -68,7 +68,7 @@ export const WorkshopsModule: React.FC = () => {
             Daftar Workshops
           </h1>
           <p className="text-center lg:text-xl md:text-xl lg:px-32 px-10 text-lg mt-5">
-            Fitur "Workshop" di GrowBiz memiliki potensi besar untuk
+            Fitur "Workshop" di JelajahBudaya memiliki potensi besar untuk
             memberdayakan UMKM dengan pengetahuan dan keterampilan yang
             diperlukan untuk mengembangkan bisnis mereka. Ini merupakan langkah
             penting dalam mendukung pertumbuhan ekonomi dan pencapaian tujuan

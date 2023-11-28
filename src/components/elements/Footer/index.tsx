@@ -12,11 +12,11 @@ export const FooTer: React.FC = () => {
             <div className="flex flex-col justify-center">
               <div className="flex mx-auto w-fit">
                 <h1 className="self-center whitespace-nowrap ml-3 text-purple-light lg:text-headline-medium md:text-headline-medium text-title-large">
-                  GrowBiz
+                  JelajahBudaya
                 </h1>
               </div>
               <p className="text-neutral-800 text-sm font-productSans text-center mt-1">
-                © 2023 GrowBiz
+                © 2023 JelajahBudaya
               </p>
               <Link
                 href="https://github.com/risalstrr/GrowBiz-Comp"
