@@ -34,7 +34,7 @@ export const WorkshopsModule: React.FC = () => {
           <div className="flex lg:flex-row flex-col justify-center items-center">
             <div className="flex flex-col">
               <h1 className="text-grey-dark lg:text-display-medium text-display-small font-bold mr-3 md:my-0 my-auto">
-                GrowBiz Workshops
+                Galeri Seni Indonesia
               </h1>
               <br />
               <p className="text-left lg:text-xl md:text-xl text-lg">
@@ -50,7 +50,7 @@ export const WorkshopsModule: React.FC = () => {
                 className=" bg-purple-light w-[50%] hover:text-purple-light hover:bg-purple-lightest md:mr-auto md:mx-0 mx-auto"
                 href="#about"
               >
-                Yuk Ikut Workhops!
+                Yuk
               </Button>
             </div>
             <Image

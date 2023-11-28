@@ -1,6 +1,8 @@
 import { Button } from 'flowbite-react'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
+import Lottie from 'lottie-react'
+// import header from 'public/assets/images/header-img.json'
 
 const LETTER_INTERVAL_IN_MILLISECONDS = 65
 const KEYWORD_INTERVAL_IN_MILLISECONDS = 1500
@@ -65,7 +67,7 @@ export default function Hero() {
       <div className="relative flex flex-col md:flex-row justify-center items-center mb-10 min-h-[40vw] w-full">
         {/* left */}
         <div className="flex lg:flex-row flex-col justify-center items-center">
-          <div className="flex flex-col">
+          <div className="flex flex-col lg:-mt-8">
             <p className="inline text-3xl text-purple-light font-productSansBold font-black underlinable w-fit">
               {currentKeyword}
             </p>
@@ -90,10 +92,11 @@ export default function Hero() {
               Yuk, eksplor!
             </Button>
           </div>
+          {/* <Lottie className="w-[1500px] h-[690px]" animationData={header} /> */}
           <Image
             width={350}
             height={350}
-            className="rounded-t-lg relative drop-shadow-md w-[60%] lg:w-[48%] mx-auto lg:p-12 p-5 md:mt-20 rounded-2xl"
+            className="rounded-t-lg relative drop-shadow-md w-[60%] lg:w-[48%] mx-auto lg:p-12 p-5 rounded-2xl"
             src="/assets/images/header-img.svg"
             alt="workshop"
           />

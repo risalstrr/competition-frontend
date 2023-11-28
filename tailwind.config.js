@@ -29,9 +29,9 @@ module.exports = {
         broken: '#F6F6F6',
         grey: { normal: '#767676', dark: "#36474f" },
         purple: {
-          light: "#794682",
-          lightest: "#e5dce7",
-          terong: "#c224a1"
+          light: "#d4402b",
+          lightest: "#d4402b",
+          terong: "#d4402b"
         }
       },
       fontSize: {

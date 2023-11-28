@@ -8,7 +8,7 @@ export const FaqModule: React.FC = () => {
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 gap-8 lg:gap-16">
           <div className="flex flex-col justify-center text-center">
             <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-purple-light md:text-5xl lg:text-6xl dark:text-white">
-              Kami membantu UMKM di Indonesia lebih sejahtera
+              Sejarah Kebudayaan Indonesia
             </h1>
             <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
               Pusat komprehensif yang membantu UMKM tumbuh, belajar,
@@ -19,7 +19,7 @@ export const FaqModule: React.FC = () => {
           <div>
             <iframe
               className="mx-auto w-full lg:max-w-xl h-64 rounded-lg sm:h-96 shadow-xl"
-              src="https://www.youtube.com/embed/7MTaI216nQA?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd1080"
+              src="https://www.youtube.com/embed/PA7gFnYfBqo"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

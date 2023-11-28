@@ -37,7 +37,7 @@ export const IncubationModule: React.FC = () => {
       <main className="relative bg-white w-full min-h-screen 2xl:px-[20vw] lg:py-20 md:py-20 py-24 lg:px-32 md:px-16 px-3 text-sm ">
         <ToastContainer />
         <h1 className="py-12 text-display-medium text-purple-light text-center">
-          Daftar Inkubasi
+          Galeri Seni Budaya
         </h1>
         <div className="flex py-6 w-full justify-around gap-x-2">
           <TextInput
