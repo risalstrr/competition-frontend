@@ -8,7 +8,7 @@ import {
   TruckIcon,
   IdentificationIcon,
   QuestionMarkCircleIcon,
-  
+  RocketLaunchIcon
   
 } from '@heroicons/react/24/outline'
 
@@ -58,4 +58,9 @@ export const routes = [
     name: 'About',
     icon: QuestionMarkCircleIcon,
   },
+  {
+    path: '/Explore',
+    name: 'Explore',
+    icon: RocketLaunchIcon,
+  }
 ]
