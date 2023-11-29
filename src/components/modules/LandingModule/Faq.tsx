@@ -38,7 +38,7 @@ export const FaqModule: React.FC = () => {
               <Accordion.Title className="text-black">
                 <p>{item.question}</p>
               </Accordion.Title>
-              <Accordion.Content className="bg-[#beaad2]">
+              <Accordion.Content className="bg-red-300">
                 <p>{item.answer}</p>
               </Accordion.Content>
             </Accordion.Panel>

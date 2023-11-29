@@ -83,53 +83,47 @@ export const VendorModule: React.FC = () => {
           <div className="flex lg:flex-row flex-col">
             <div className="flex flex-col justify-center items-center">
               <h1 className="py-6 text-3xl  text-display-medium text-purple-light text-center">
-                Vendor
+                Resep Masakan
               </h1>
               <p className="text-center lg:text-xl md:text-xl px-20 text-lg">
-                Membantu UMKM dalam{' '}
-                <span className="font-productSansBold text-purple-terong">
-                  mengembangkan bisnis mereka
-                </span>{' '}
-                dan{' '}
-                <span className="font-productSansBold text-purple-terong">
-                  mencapai berbagai tujuan
-                </span>{' '}
-                , seperti meningkatkan penjualan, memperluas jangkauan pasar,
-                dan meningkatkan efisiensi operasional.
+                menyediakan koleksi beragam resep kuliner dari berbagai budaya.
+                Pengguna dapat menemukan petunjuk langkah demi langkah, bahan
+                yang diperlukan, dan gambar atau video panduan untuk membantu
+                dalam proses memasak.
               </p>
               <Image
                 width={350}
                 height={350}
-                className="p-8 rounded-t-lg"
+                className="rounded-t-lg"
                 src="/assets/images/vendor.svg"
                 alt="vendor"
               />
             </div>
             <DialogueCard>
-              <h2>Nama Toko Vendor</h2>
+              <h2>Nama Masakan & Asal Daerah</h2>
               <TextInput
                 type="text"
-                placeholder="Contoh: Toko Bersinar"
+                placeholder="Contoh: Rendang"
                 required={true}
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
               <br />
 
-              <h2>Nomor Telepon</h2>
+              <h2>Bahan-bahan</h2>
               <TextInput
                 type="text"
-                placeholder="Contoh: 08128167165"
+                placeholder="Contoh: Daging, Santan, dll"
                 required={true}
                 value={phoneNumber}
                 onChange={(e) => setPhoneNumber(e.target.value)}
               />
               <br />
 
-              <h2>Produk yang dibeli</h2>
+              <h2>Langkah-langkah pembuatan</h2>
               <TextInput
                 type="text"
-                placeholder="Contoh: Benang"
+                placeholder="Contoh: Pertama, cuci daging terlebih dahulu"
                 required={true}
                 value={product}
                 onChange={(e) => setProduct(e.target.value)}
@@ -142,23 +136,20 @@ export const VendorModule: React.FC = () => {
                 onClick={() => handleCreateVendor()}
                 // onClick={(e) => router.push('/auth/login')}
               >
-                {jwt ? 'Create New Vendor' : 'Login dulu!'}
+                {jwt ? 'Buat resep baru' : 'Login dulu!'}
               </Button>
             </DialogueCard>
           </div>
         </div>
 
         <div className="w-full">
-          <h1 className="pt-14 text-3xl text-display-medium text-purple-light text-center">
-            Daftar Vendor
+          <h1 className="pt-24 text-3xl text-display-medium text-purple-light text-center">
+            Daftar Resep Masakan
           </h1>
           <p className="text-center lg:text-xl md:text-xl lg:px-32 px-10 text-lg mt-5">
-            Dengan adanya fitur "Vendor", Aplikasi JelajahBudaya memberikan
-            kesempatan kepada UMKM dan penyedia layanan lainnya untuk
-            mengembangkan bisnis mereka secara online, mencapai lebih banyak
-            pelanggan, dan meningkatkan efisiensi operasional. Ini merupakan
-            salah satu cara untuk mendukung pertumbuhan ekonomi dan mencapai
-            tujuan pembangunan berkelanjutan (SDGs).
+            Dibawah ini adalah daftar resep masakan yang menjadi sumber
+            inspirasi dan panduan praktis bagi kamu yang ingin mencoba masakan
+            baru atau mengembangkan keahlian memasak!
           </p>
 
           <div className="lg:flex lg:flex-row md:grid md:grid-cols-3 sm:grid sm:grid-cols-2 lg:p-10 justify-center mx-auto m-10 gap-5 lg:overflow-x-auto lg:w-10/12 md:w-10/12 w-full">

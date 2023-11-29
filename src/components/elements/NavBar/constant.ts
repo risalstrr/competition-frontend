@@ -30,7 +30,7 @@ export const routes = [
   },
   {
     path: '/Workshops',
-    name: 'Acara Budaya',
+    name: 'Galeri Seni',
     icon: GlobeAltIcon,
   },
   {
@@ -45,7 +45,7 @@ export const routes = [
   },
   {
     path: '/Vendor',
-    name: 'Vendor',
+    name: 'Resep Masakan',
     icon: IdentificationIcon,
   },
   {

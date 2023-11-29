@@ -31,7 +31,7 @@ export default function Service() {
           <div className="flex my-5 gap-5">
             <div className="flex flex-col justify-center items-center">
               <h1 className="font-extrabold text-2xl">60+</h1>
-              <p>Workshops</p>
+              <p>Acara Budaya</p>
             </div>
             <div className="flex flex-col justify-center items-center">
               <h1 className="font-extrabold text-2xl">1.7k+</h1>

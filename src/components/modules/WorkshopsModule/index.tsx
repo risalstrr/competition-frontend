@@ -38,11 +38,12 @@ export const WorkshopsModule: React.FC = () => {
               </h1>
               <br />
               <p className="text-left lg:text-xl md:text-xl text-lg">
-                Memberikan pelatihan dan pembelajaran kepada pemilik UMKM (Usaha
-                Mikro, Kecil, dan Menengah) serta karyawan mereka. Ini merupakan
-                bagian penting dari upaya JelajahBudaya untuk meningkatkan
-                keterampilan dan pengetahuan dalam rangka mendukung pertumbuhan
-                bisnis UMKM
+                Fitur galeri seni mencakup pameran seni online yang menampilkan
+                karya seniman dari berbagai budaya, memberikan pengguna
+                kesempatan untuk menjelajahi dan menghargai seni dari perspektif
+                global. Dengan koleksi seni digital, pengguna dapat menikmati
+                lukisan, fotografi, dan karya seni digital lainnya secara
+                virtual.
               </p>
               <br />
               <br />
@@ -63,9 +64,9 @@ export const WorkshopsModule: React.FC = () => {
           </div>
         </div>
 
-        <div className="w-full mt-14">
+        <div className="w-full mt-20">
           <h1 className="text-purple-light text-center lg:text-display-medium text-display-small font-bold mr-3 md:my-0 my-auto">
-            Daftar Workshops
+            Daftar Galeri Seni
           </h1>
           <p className="text-center lg:text-xl md:text-xl lg:px-32 px-10 text-lg mt-5">
             Fitur "Workshop" di JelajahBudaya memiliki potensi besar untuk
