@@ -1,29 +1,29 @@
 export const faqs = [
   {
-    question: 'Apa itu JelajahBudaya?',
+    question: 'Apakah Jelajah Budaya menyajikan resep masakan yang dapat dicoba?',
     answer:
-      'JelajahBudaya adalah sebuah platform yang bertujuan untuk memberikan solusi dan fitur yang dapat membantu Usaha Mikro, Kecil, dan Menengah (UMKM) mengatasi berbagai kendala yang mereka hadapi dalam mengembangkan bisnis mereka. Platform ini menyediakan berbagai fitur yang dapat membantu UMKM dalam manajemen keuangan, pemasaran, akses modal, literasi keuangan, dan interaksi dengan UMKM lainnya.',
+      'Ya, Jelajah Budaya memiliki bagian khusus yang menawarkan resep masakan tradisional Indonesia. Di sini, Anda dapat menemukan berbagai resep, bahan-bahan, dan panduan langkah demi langkah untuk mencoba dan menikmati kelezatan masakan Indonesia di rumah.',
   },
   {
-    question: 'Bagaimana JelajahBudaya membantu UMKM meningkatkan efisiensi manajemen keuangan?',
+    question: 'Apakah Jelajah Budaya memiliki fitur artikel dan blog?',
     answer:
-      'JelajahBudaya menyediakan alat yang mudah digunakan untuk mengotomatisasi proses keuangan UMKM, memastikan pencatatan yang akurat, dan mengurangi risiko kecurangan oleh pegawai. Dengan demikian, UMKM dapat mengelola keuangan mereka dengan lebih baik.',
+      'Ya, Jelajah Budaya menyediakan bagian Artikel dan Blog yang berisi informasi mendalam tentang sejarah, cerita rakyat, dan aspek-aspek budaya Indonesia. Anda dapat membaca artikel-artikel ini untuk memperdalam pemahaman Anda tentang kekayaan budaya negara ini.',
   },
 
   {
-    question: 'Bagaimana JelajahBudaya memfasilitasi pertumbuhan bisnis UMKM?',
+    question: 'Bagaimana saya dapat menjelajahi cerita perjalanan interaktif di Jelajah Budaya?',
     answer:
-      'Aplikasi ini memberikan akses ke berbagai alat dan fitur yang mendukung perencanaan bisnis, manajemen produk, forum bisnis, dan pemasaran yang lebih efektif. Dengan bantuan JelajahBudaya, UMKM dapat mengembangkan bisnis mereka dengan lebih baik.',
+      'Untuk menjelajahi cerita perjalanan interaktif, cukup kunjungi bagian cerita perjalanan di Jelajah Budaya dan pilih cerita yang menarik bagi Anda. Anda dapat mengikuti jejak karakter utama dan merasakan petualangan mereka melalui narasi yang mendalam.',
   },
   {
-      question: 'Apakah JelajahBudaya membantu UMKM dalam mendapatkan akses ke modal usaha?',
+      question: 'Apa manfaat utama yang dapat saya peroleh dari mengikuti kelas budaya online di Jelajah Budaya?',
       answer:
-        'Ya, JelajahBudaya memiliki fitur yang dapat membantu UMKM dalam mendapatkan akses ke modal yang diperlukan untuk mengembangkan bisnis mereka. Ini bisa melalui fitur seperti crowdfunding atau koneksi dengan investor.',
+        'Manfaat utama dari mengikuti kelas budaya online di Jelajah Budaya adalah Anda dapat memperluas pengetahuan tentang seni, tarian, musik, dan masakan Indonesia secara gratis, sambil terhubung dengan komunitas yang memiliki minat serupa.',
   },
   {
-      question: 'Bagaimana cara menggunakan Aplikasi JelajahBudaya?',
+      question: 'Bagaimana Jelajah Budaya memastikan keberlanjutan dukungan terhadap seniman lokal yang terlibat dalam Galeri Seni Digital?',
       answer:
-        'Untuk panduan penggunaan aplikasi, kami menyediakan video tutorial dan panduan langkah demi langkah di situs web kami. Anda dapat mengikuti instruksi tersebut untuk memanfaatkan semua fitur yang tersedia.',
+        'Jelajah Budaya berkomitmen pada keberlanjutan dukungan terhadap seniman lokal dalam Galeri Seni Digital dengan memberikan platform untuk memamerkan dan menjual karya mereka. Pembelian karya seni ini langsung mendukung para seniman, memastikan mereka mendapatkan apresiasi dan dukungan finansial yang berkelanjutan.',
   },
 
 ]

@@ -16,20 +16,21 @@ export default function About() {
         />
         <div className="lg:pl-32 md:pl-16 pl-3">
           <h1 className="text-center md:text-left relative lg:text-display-medium mb-10 md:text-display-small text-display-small font-bold leading-none text-purple-light">
-            JelajahBudaya memfasilitasi koneksi dengan investor yang membantu
-            pengusaha mengatasi hambatan keuangan dalam pertumbuhan bisnis
-            mereka
+            Keanekaragaman Etnis dan Bahasa
           </h1>
           <a
             href="#2"
             className="block relative text-center md:text-left group-hover:text-purple-500 transition-colors duration-200 2xl:pr-[30vw] lg:pr-32 md:pr-8 pr-3"
           >
-            JelajahBudaya memberikan pengusaha UMKM akses ke berbagai sumber
-            daya dan layanan tambahan yang memungkinkan mereka untuk berbagi
-            pengalaman dan pengetahuan dengan sesama pengusaha, pelatihan online
-            yang membantu mereka meningkatkan keterampilan bisnis, dan layanan
-            inkubasi yang mendukung perkembangan bisnis startup.
+            Indonesia dikenal sebagai negara dengan keanekaragaman etnis dan
+            bahasa yang luar biasa. Dengan lebih dari 300 suku bangsa dan lebih
+            dari 700 bahasa daerah, kekayaan budaya Indonesia tercermin dalam
+            adat istiadat, upacara tradisional, dan keberagaman bahasa yang
+            membuatnya menjadi salah satu warisan budaya terkaya di dunia.
           </a>
+          <button className="mt-5 bg-purple-light hover:bg-pink-200 hover:text-purple-light text-white font-bold py-2 px-4 border-b-4 border-red-400 hover:border-red-400 rounded">
+            Jelajah lebih lanjut!
+          </button>
         </div>
       </div>
       <div
@@ -45,20 +46,21 @@ export default function About() {
         />
         <div className="lg:pl-32 md:pl-16 pl-3">
           <h1 className="text-center md:text-left relative lg:text-display-medium mb-10 md:text-display-small text-display-small font-bold leading-none text-purple-light">
-            JelajahBudaya memfasilitasi koneksi dengan investor yang membantu
-            pengusaha mengatasi hambatan keuangan dalam pertumbuhan bisnis
-            mereka
+            Seni dan Kerajinan Tradisional
           </h1>
           <a
             href="#2"
             className="block relative text-center md:text-left group-hover:text-purple-500 transition-colors duration-200 2xl:pr-[30vw] lg:pr-32 md:pr-8 pr-3"
           >
-            JelajahBudaya memberikan pengusaha UMKM akses ke berbagai sumber
-            daya dan layanan tambahan yang memungkinkan mereka untuk berbagi
-            pengalaman dan pengetahuan dengan sesama pengusaha, pelatihan online
-            yang membantu mereka meningkatkan keterampilan bisnis, dan layanan
-            inkubasi yang mendukung perkembangan bisnis startup.
+            Keindahan budaya Indonesia juga tercermin dalam seni dan kerajinan
+            tradisional yang mengagumkan. Mulai dari wayang kulit, batik, ukiran
+            kayu, hingga seni pahat dan seni rupa, setiap karya seni ini
+            mengandung nilai-nilai sejarah dan kearifan lokal, menciptakan
+            warisan seni yang unik dan tak ternilai.
           </a>
+          <button className="mt-5 bg-purple-light hover:bg-pink-200 hover:text-purple-light text-white font-bold py-2 px-4 border-b-4 border-red-400 hover:border-red-400 rounded">
+            Jelajah lebih lanjut!
+          </button>
         </div>
       </div>
     </>

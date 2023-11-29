@@ -11,9 +11,9 @@ export const FaqModule: React.FC = () => {
               Sejarah Kebudayaan Indonesia
             </h1>
             <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-              Pusat komprehensif yang membantu UMKM tumbuh, belajar,
-              berkolaborasi, dan mencapai tujuan bisnis dan pembangunan
-              berkelanjutan mereka.
+              Sejarah kebudayaan Indonesia mencakup perjalanan panjang dan kaya
+              akan ragam budaya, seni, dan tradisi yang tumbuh berkembang
+              seiring waktu.
             </p>
           </div>
           <div>

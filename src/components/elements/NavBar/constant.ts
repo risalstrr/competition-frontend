@@ -20,7 +20,7 @@ export const routes = [
   },
   {
     path: '/Forum',
-    name: 'Forum UMKM',
+    name: 'Forum',
     icon: ChatBubbleLeftRightIcon,
   },
   {
@@ -30,14 +30,9 @@ export const routes = [
   },
   {
     path: '/Workshops',
-    name: 'Workshops',
+    name: 'Acara Budaya',
     icon: GlobeAltIcon,
   },
-  // {
-  //   path: '/UMKM',
-  //   name: 'UMKM',
-  //   icon: UserIcon,
-  // },
   {
     path: '/Wallet',
     name: 'Wallet',
@@ -52,11 +47,6 @@ export const routes = [
     path: '/Vendor',
     name: 'Vendor',
     icon: IdentificationIcon,
-  },
- {
-    path: '/About',
-    name: 'About',
-    icon: QuestionMarkCircleIcon,
   },
   {
     path: '/Explore',
