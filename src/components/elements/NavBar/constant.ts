@@ -35,14 +35,14 @@ export const routes = [
   },
   {
     path: '/Wallet',
-    name: 'Wallet',
+    name: 'Cerita',
     icon: WalletIcon,
   },
-  {
-    path: '/Products',
-    name: 'Products',
-    icon: TruckIcon,
-  },
+  // {
+  //   path: '/Products',
+  //   name: 'Products',
+  //   icon: TruckIcon,
+  // },
   {
     path: '/Vendor',
     name: 'Resep Masakan',
