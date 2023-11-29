@@ -147,19 +147,18 @@ export const ForumModule: React.FC = () => {
               </h1>
 
               <p className="text-left lg:text-xl md:text-xl text-lg mt-5">
-                Fitur "Forum" di platform JelajahBudaya adalah ruang diskusi
-                daring yang dirancang untuk memfasilitasi interaksi dan berbagi
-                pengetahuan antara pemilik UMKM, karyawan, ahli industri, dan
-                berbagai pemangku kepentingan lainnya.
+                Forum Komunitas Jelajah Budaya seperti tempat berkumpul online,
+                di mana kamu bisa ngobrol, cerita pengalaman, dan tukar
+                informasi tentang kekayaan budaya Indonesia. Di sini, kamu bisa
+                bikin atau jawab posting, tanya-tanya, atau diskusi tentang
+                berbagai hal yang berkaitan dengan budaya. Forum ini jadi tempat
+                asyik untuk berbagi dan belajar bareng.
               </p>
               <br />
               <br />
-              <Button
-                className=" bg-purple-light w-[50%] hover:text-purple-light hover:bg-purple-lightest md:mr-auto md:mx-0 mx-auto"
-                href="#about"
-              >
-                Yuk diskusi!
-              </Button>
+              <button className="mt-5 w-60 bg-purple-light hover:bg-pink-200 hover:text-purple-light text-white font-bold py-2 px-4 border-b-4 border-red-400 hover:border-red-400 rounded">
+                Yuk Diskusi!
+              </button>
             </div>
             <Image
               width={350}

@@ -86,11 +86,11 @@ export const CoursesModule: React.FC = () => {
               </h1>
               <br />
               <p className="text-left lg:text-xl md:text-xl text-lg mt-5">
-                Fitur "Course" adalah komponen dalam platform JelajahBudaya yang
-                memungkinkan pemilik UMKM dan karyawan mereka untuk mengakses
-                materi pelatihan, kursus, atau modul pembelajaran yang dirancang
-                untuk meningkatkan pengetahuan dan keterampilan mereka dalam
-                berbagai aspek bisnis.
+                Fitur "courses" dapat mencakup pelajaran atau modul pembelajaran
+                terkait perjalanan, kebudayaan, atau topik terkait lainnya. Ini
+                bisa termasuk panduan perjalanan, kursus bahasa, kuliner, atau
+                materi edukatif lainnya yang berfokus pada keanekaragaman
+                budaya.
               </p>
               <br />
               <br />
@@ -111,16 +111,13 @@ export const CoursesModule: React.FC = () => {
           </div>
         </div>
 
-        <div className="w-full mt-14">
+        <div className="w-full mt-20">
           <h1 className="text-purple-light text-center lg:text-display-medium text-display-small font-bold mr-3 md:my-0 my-auto">
             Daftar Courses
           </h1>
           <p className="text-center lg:text-xl md:text-xl lg:px-32 px-10 text-lg mt-5">
-            Fitur "Course" di JelajahBudaya memiliki potensi besar untuk
-            memberdayakan pemilik UMKM dan karyawan mereka dengan pengetahuan
-            dan keterampilan yang diperlukan untuk mengembangkan bisnis mereka.
-            Ini merupakan langkah penting dalam mendukung pertumbuhan ekonomi
-            dan pencapaian tujuan pembangunan berkelanjutan.
+            Di bawah ini terdapat beberapa pilihan courses yang dapat kamu pilih
+            sesuai skills yang ingin kamu dapatkan!
           </p>
           <div className="grid grid-cols-1 mb-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-1 gap-y-8">
             {/* {workshops ? (
