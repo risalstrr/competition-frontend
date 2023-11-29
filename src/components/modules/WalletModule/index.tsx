@@ -92,16 +92,12 @@ export const WalletModule: React.FC = () => {
           <div className="flex lg:flex-row flex-col">
             <div className="flex flex-col justify-center items-center">
               <h1 className="py-6 text-3xl  text-display-medium text-purple-light text-center">
-                Wallet Transaksi
+                Cerita Perjalanan
               </h1>
               <p className="text-center lg:text-xl md:text-xl px-20 text-lg">
-                Dengan fitur wallet transaksi yang sesuai, UMKM dapat{' '}
-                <span className="font-productSansBold text-purple-terong">
-                  {' '}
-                  mengelola keuangan mereka dengan lebih efisien , meningkatkan
-                  transparansi, mengurangi risiko keuangan, dan memungkinkan
-                  pertumbuhan bisnis yang lebih baik.
-                </span>
+                Cerita Perjalanan dapat menjadi sumber wawasan budaya, panduan
+                perjalanan, dan sarana untuk membangun komunitas pengguna yang
+                saling berbagi pengalaman eksplorasi kalian di seluruh dunia.
               </p>
               <Image
                 width={350}
@@ -191,13 +187,13 @@ export const WalletModule: React.FC = () => {
         </div>
 
         <div className="w-full">
-          <h1 className="pt-14 text-3xl text-display-medium text-purple-light text-center">
-            Daftar Transaksi
+          <h1 className="pt-24 text-3xl text-display-medium text-purple-light text-center">
+            Pengalaman Eksplor Budaya
           </h1>
           <p className="text-center lg:text-xl md:text-xl lg:px-32 px-10 text-lg mt-5">
-            Wallet transaksi sering menyediakan laporan keuangan yang dapat
-            membantu UMKM dalam memahami kinerja keuangan mereka. Laporan ini
-            dapat digunakan untuk perencanaan bisnis dan analisis keuangan.
+            Pengalaman eksplor budaya menjadi wadah bagi pengguna untuk
+            membagikan cerita perjalanan mereka dalam proses mengenal dan
+            melestarikan budaya nusantara.
           </p>
 
           <div className="lg:flex lg:flex-row md:grid md:grid-cols-3 sm:grid sm:grid-cols-2 lg:p-10 justify-center mx-auto m-10 gap-5 lg:overflow-x-auto lg:w-10/12 md:w-10/12 w-full">
