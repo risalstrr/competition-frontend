@@ -6,12 +6,12 @@ import Lottie from 'lottie-react'
 
 const LETTER_INTERVAL_IN_MILLISECONDS = 65
 const KEYWORD_INTERVAL_IN_MILLISECONDS = 1500
-const KEYWORDS_LIST: string[] = ['Kembangkan bisnis UMKM bersama...']
+const KEYWORDS_LIST: string[] = ['Temukan pesona budaya Indonesia melalui...']
 
 export default function Hero() {
   const [keywordIndex, setKeywordIndex] = useState<number>(-1)
   const [currentKeyword, setCurrentKeyword] = useState<string>(
-    'Kembangkan bisnis UMKM bersama...'
+    'Temukan pesona budaya Indonesia melalui...'
   )
 
   // functional, recursive logic for keyword animation
@@ -72,16 +72,16 @@ export default function Hero() {
               {currentKeyword}
             </p>
             <h1 className="text-grey-dark lg:text-display-medium text-display-small font-bold mr-3 md:my-0 my-auto">
-              JelajahBudaya{' '}
+              JelajahBudaya Indonesia
             </h1>
 
             <br />
             <p className="text-left lg:text-xl md:text-xl text-lg">
-              JelajahBudaya memberikan pelatihan dan pembelajaran kepada pemilik
-              UMKM (Usaha Mikro, Kecil, dan Menengah) dan karyawan mereka.
-              JelajahBudaya sebagai pusat komprehensif yang membantu UMKM
-              tumbuh, belajar, berkolaborasi, dan mencapai tujuan bisnis dan
-              pembangunan berkelanjutan mereka.
+              Temukan Keindahan Budaya Indonesia di sini! Rasakan pesona budaya
+              dari Sabang hingga Merauke melalui pengalaman digital yang
+              menarik. Setiap langkah akan membawa Anda pada petualangan
+              mendalam, mengungkap kekayaan seni, tradisi, dan sejarah
+              Indonesia.
             </p>
             <br />
             <br />

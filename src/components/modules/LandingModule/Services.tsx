@@ -7,22 +7,21 @@ export default function Service() {
       {' '}
       <div className="w-full lg:w-1/2">
         <h1 className="text-center lg:text-left relative lg:text-display-medium md:text-display-small text-display-small font-bold leading-none text-purple-light">
-          Kenapa harus pilih JelajahBudaya?
+          Apa itu JelajahBudaya?
         </h1>
         <p className="my-5 text-center lg:text-left">
-          JelajahBudaya adalah platform yang secara khusus dirancang untuk
-          memenuhi kebutuhan bisnis Usaha Mikro, Kecil, dan Menengah yang biasa
-          disebut UMKM. Dalam JelajahBudaya, Anda dapat memperoleh pengetahuan
-          baru, berkolaborasi dengan sesama pengusaha, mengelola keuangan dengan
-          lebih efisien, dan bahkan mendapatkan akses ke modal yang diperlukan
-          untuk pertumbuhan bisnis Anda, semuanya dalam satu platform yang mudah
-          digunakan.
+          JelajahBudaya adalah sebuah platform digital yang mengundang
+          pengunjung untuk menjelajahi dan merasakan kekayaan budaya Indonesia
+          secara daring. Dengan fokus pada keanekaragaman budaya, platform ini
+          memungkinkan pengguna untuk menggali cerita-cerita menarik, belajar
+          dari kelas budaya online, dan terlibat dalam komunitas yang mencintai
+          keberagaman budaya Indonesia.
         </p>
         <div className="flex flex-col justify-center items-center">
           <div className="flex my-5 gap-5">
             <div className="flex flex-col justify-center items-center">
               <h1 className="font-extrabold text-2xl">300+</h1>
-              <p>Investors</p>
+              <p>Galeri Budaya</p>
             </div>
             <div className="flex flex-col justify-center items-center">
               <h1 className="font-extrabold text-2xl">1200+</h1>
@@ -55,7 +54,8 @@ export default function Service() {
                     className="w-[70px]"
                   />
                   <p className="text-lg text-black font-semibold">
-                    JelajahBudaya memberikan akses yang mudah bagi pemilik UMKM
+                    Mendalami Kekayaan Budaya Indonesia dengan Daya Tarik yang
+                    Unik
                   </p>
                 </div>
               </div>
@@ -67,14 +67,14 @@ export default function Service() {
                 <div className="space-y-3 p-5">
                   <p className="text-lg text-black font-semibold">
                     <Image
-                      src={'/assets/images/msmes=.png'}
+                      src={'/assets/images/msmes1.png'}
                       width={350}
                       height={350}
                       alt="foto"
                       className="w-[70px]"
                     />
-                    JelajahBudaya membantu UMKM dalam mencapai pertumbuhan
-                    ekonomi yang berkelanjutan
+                    JelajahBudaya menyediakan berbagai fitur dan layanan yang
+                    saling terkait
                   </p>
                 </div>
               </div>
@@ -94,8 +94,7 @@ export default function Service() {
                 className="w-[70px]"
               />
               <p className="text-lg text-black font-semibold">
-                JelajahBudaya menyediakan berbagai fitur dan layanan yang saling
-                terkait
+                Eksplorasi Digital Kekayaan Budaya Indonesia yang Mengagumkan
               </p>
             </div>
           </div>
