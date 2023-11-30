@@ -38,12 +38,12 @@ export const WorkshopsModule: React.FC = () => {
               </h1>
               <br />
               <p className="text-left lg:text-xl md:text-xl text-lg">
-                Fitur galeri seni mencakup pameran seni online yang menampilkan
-                karya seniman dari berbagai budaya, memberikan pengguna
-                kesempatan untuk menjelajahi dan menghargai seni dari perspektif
-                global. Dengan koleksi seni digital, pengguna dapat menikmati
-                lukisan, fotografi, dan karya seni digital lainnya secara
-                virtual.
+                Galeri Seni Indonesia pada platform ini adalah sebuah ruang yang
+                memamerkan dan memajukan karya-karya seniman lokal yang
+                terinspirasi oleh kekayaan budaya Indonesia. Dalam fitur ini,
+                pengguna dapat menikmati beragam bentuk seni digital, mulai dari
+                lukisan hingga karya seni digital yang menggambarkan indahnya
+                keanekaragaman budaya.
               </p>
               <br />
               <br />
@@ -69,11 +69,9 @@ export const WorkshopsModule: React.FC = () => {
             Daftar Galeri Seni
           </h1>
           <p className="text-center lg:text-xl md:text-xl lg:px-32 px-10 text-lg mt-5">
-            Fitur "Workshop" di JelajahBudaya memiliki potensi besar untuk
-            memberdayakan UMKM dengan pengetahuan dan keterampilan yang
-            diperlukan untuk mengembangkan bisnis mereka. Ini merupakan langkah
-            penting dalam mendukung pertumbuhan ekonomi dan pencapaian tujuan
-            pembangunan berkelanjutan.
+            Pengguna dapat menjelajahi karya-karya seniman lokal yang
+            mencerminkan keindahan dan keragaman budaya Indonesia, memberikan
+            wawasan unik tentang cara seniman merespons warisan budaya.
           </p>
           <div className="grid grid-cols-1 gap-10 my-14 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-1 gap-y-8">
             {workshops ? (

@@ -1,5 +1,5 @@
 {
-    "name": "GrowBiz",
+    "name": "JelajahBudaya",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -25,6 +25,7 @@
         "eslint-config-next": "13.3.1",
         "flowbite": "^1.6.5",
         "flowbite-react": "^0.4.3",
+        "keen-slider": "^6.8.6",
         "lottie-react": "^2.4.0",
         "next": "13.3.1",
         "react": "18.2.0",

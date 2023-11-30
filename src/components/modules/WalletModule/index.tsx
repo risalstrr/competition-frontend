@@ -92,17 +92,18 @@ export const WalletModule: React.FC = () => {
           <div className="flex lg:flex-row flex-col">
             <div className="flex flex-col justify-center items-center">
               <h1 className="py-6 text-3xl  text-display-medium text-purple-light text-center">
-                Cerita Perjalanan
+                Bagikan artikel menarik!
               </h1>
               <p className="text-center lg:text-xl md:text-xl px-20 text-lg">
-                Cerita Perjalanan dapat menjadi sumber wawasan budaya, panduan
-                perjalanan, dan sarana untuk membangun komunitas pengguna yang
-                saling berbagi pengalaman eksplorasi kalian di seluruh dunia.
+                Pengguna dapat menemukan dan berbagi artikel mengenai beragam
+                topik, termasuk sejarah, seni, tradisi, dan kuliner Indonesia.
+                Fitur ini menggabungkan wawasan mendalam dan keberagaman untuk
+                memperkaya pemahaman budaya.
               </p>
               <Image
                 width={350}
                 height={350}
-                className="p-8 rounded-t-lg"
+                className="pt-5 rounded-t-lg"
                 src="/assets/images/wallet.svg"
                 alt="vendor"
               />
@@ -188,12 +189,13 @@ export const WalletModule: React.FC = () => {
 
         <div className="w-full">
           <h1 className="pt-24 text-3xl text-display-medium text-purple-light text-center">
-            Pengalaman Eksplor Budaya
+            Artikel Eksplor Budaya
           </h1>
           <p className="text-center lg:text-xl md:text-xl lg:px-32 px-10 text-lg mt-5">
-            Pengalaman eksplor budaya menjadi wadah bagi pengguna untuk
-            membagikan cerita perjalanan mereka dalam proses mengenal dan
-            melestarikan budaya nusantara.
+            Melalui fitur ini, pengguna dapat menjadi agen positif dalam
+            menyebarkan informasi mendalam tentang kekayaan budaya Indonesia.
+            Artikel-artikel ini dapat menjadi sumber inspirasi dan edukasi bagi
+            pengunjung platform.
           </p>
 
           <div className="lg:flex lg:flex-row md:grid md:grid-cols-3 sm:grid sm:grid-cols-2 lg:p-10 justify-center mx-auto m-10 gap-5 lg:overflow-x-auto lg:w-10/12 md:w-10/12 w-full">

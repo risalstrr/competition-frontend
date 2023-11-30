@@ -35,7 +35,7 @@ export const routes = [
   },
   {
     path: '/Wallet',
-    name: 'Cerita',
+    name: 'Artikel',
     icon: WalletIcon,
   },
   // {
