@@ -138,7 +138,7 @@ export const CoursesModule: React.FC = () => {
           <TextInput
             id="searchQuery"
             type="text"
-            placeholder="Contoh: Bisnis"
+            placeholder="Contoh: Kelas membatik"
             className="w-full"
           />
           <Button className="bg-purple-light">
