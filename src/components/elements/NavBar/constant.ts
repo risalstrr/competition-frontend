@@ -8,7 +8,8 @@ import {
   TruckIcon,
   IdentificationIcon,
   QuestionMarkCircleIcon,
-  RocketLaunchIcon
+  RocketLaunchIcon,
+  MusicalNoteIcon
   
 } from '@heroicons/react/24/outline'
 
@@ -52,5 +53,10 @@ export const routes = [
     path: '/Explore',
     name: 'Explore',
     icon: RocketLaunchIcon,
+  },
+  {
+    path: "/Podcast",
+    name: "Podcast",
+    icon: MusicalNoteIcon
   }
 ]

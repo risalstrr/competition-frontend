@@ -2,9 +2,48 @@ import React from 'react'
 import Image from 'next/image'
 
 export default function Service() {
+  const { Client } = require('podcast-api')
+
+  //
+  // If apiKey is null, then we will connect to a mock server
+  // that returns fake data for testing purposes.
+  //
+  // To get an apiKey to fetch real data, please visit:
+  //     https://www.listennotes.com/api/pricing/
+  //
+  const client = Client({ apiKey: null })
+
+  client
+    .search({
+      q: 'jawa barat',
+      // sort_by_date: 0,
+      // type: 'episode',
+      // genre_ids: '',
+      only_in: 'title,description',
+      // language: 'Indonesian',
+    })
+    .then((response: { data: any }) => {
+      // Get response json data here
+      console.log(response.data)
+    })
+    .catch((error: any) => {
+      console.log(error)
+    })
   return (
     <div className="relative lg:p-24 md:p-20 sm:p-10 flex flex-col lg:flex-row min-h-[40vw] gap-10 lg:mb-0 md:mb-26 mb-32">
       {' '}
+      <a
+        href="https://www.listennotes.com/podcasts/the-rough-cut/star-wars-the-force-awakens-S1DtPmEr2e7/"
+        title="Star Wars - The Force Awakens | Listen Notes"
+      ></a>
+      <h1>Podcast Player</h1>
+      <audio controls id="podcastAudio">
+        <source
+          src="https://www.listennotes.com/e/p/42b1898db6a84973b41879618002937b/"
+          type="audio/mp3"
+        />
+        Your browser does not support the audio element.
+      </audio>
       <div className="w-full lg:w-1/2">
         <h1 className="text-center lg:text-left relative lg:text-display-medium md:text-display-small text-display-small font-bold leading-none text-purple-light">
           Apa itu JelajahBudaya?
