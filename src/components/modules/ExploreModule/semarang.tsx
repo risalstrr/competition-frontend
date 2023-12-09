@@ -157,7 +157,7 @@ export const SemarangModule: React.FC = () => {
             ></iframe>
 
         <h3 className="text-purple-light text-center lg:text-display-medium text-display-small font-bold mr-3 md:my-10 my-auto">
-            Ditengah perjalanan Kirana lapar dan ingin mencari makanan khas dari Kota Semarang <p className="inline"></p></h3>
+        Batik Gemawang si Cantik dari Semarang <p className="inline"></p></h3>
             <p className="text-left text-center lg:text-xl md:text-xl text-lg mt-2">
             Kirana merasa keterpukau oleh keunikan budaya kota ini dan memutuskan untuk pulang 
             dengan kenangan yang berkesan. Tidak ingin melewatkan peluang untuk membawa pulang 

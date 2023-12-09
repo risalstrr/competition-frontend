@@ -65,7 +65,7 @@ export const ExploreModule: React.FC = () => {
             />
             <Button
                 className="bg-purple-light hover:text-purple-light hover:bg-purple-lightest md:mx-auto mx-auto w-[30%]"
-                href="./Explore/Semarang">Yuk, ikuti kirana di Medan!</Button>
+                href="./Explore/Medan">Yuk, ikuti kirana di Medan!</Button>
 
 <h1 className="text-grey-dark text-center lg:text-display-medium text-display-small font-bold mr-3 md:my-0 my-auto">
             Petualangan Ketiga Kirana: Ke Kota Tana Toraja <p className="inline"></p></h1>
@@ -79,7 +79,7 @@ export const ExploreModule: React.FC = () => {
             />
             <Button
                 className="bg-purple-light hover:text-purple-light hover:bg-purple-lightest md:mx-auto mx-auto w-[30%]"
-                href="./Explore/Semarang">Yuk, ikuti kirana di Tana Toraja!</Button>
+                href="./Explore/Tanatoraja">Yuk, ikuti kirana di Tana Toraja!</Button>
       </div>
     </>
   )
