@@ -66,22 +66,19 @@ export const MedanModule: React.FC = () => {
               width={250}
               height={250}
               className="rounded-t-lg relative w-[60%] lg:w-[75%] mx-auto lg:p-10 p-4 md:mt-15 rounded-2xl"
-              src="/assets/images/kiranadugder.svg"
+              src="/assets/images/taritortor.svg"
               alt='Explore' 
               /> 
           <div className="flex flex-col">
           
-          <h1 className="text-left text-purple-light lg:text-display-medium text-display-small font-bold mr-30 md:my-0 my-auto">
-              Tradisi Dugderan <p className="inline"></p>
+          <h1 className="text-left text-purple-light lg:text-display-medium text-display-small font-bold mr-10 md:my-0 my-auto">
+          Budaya yang Beragam <p className="inline"></p>
           </h1>
           <p className="text-left lg:text-xl md:text-xl text-lg mt-5">
-          Kirana mengeksplorasi kekayaan tradisi budaya Kota Semarang, 
-          menemukan keunikan Dugderan. Dugderan merupakan tradisi 
-          akulturasi Arab, Tionghoa, dan Jawa, memikat dengan keragaman budaya 
-          yang terjalin erat. Kirana tak hanya menyaksikan, tetapi juga ikut
-          merasakan kehangatan dan keceriaan setiap tradisi, menjadikan 
-          petualangannya di Kota Semarang penuh warna 
-          dan makna budaya.
+          Kota Medan memeiliki berbagai keanekaragaman. Hal ini tercermin dalam seni, musik, 
+          tarian, dan kuliner khas kota. Salah satunya adalah Tari Tor-Tor. Tarian tradisional suku Batak yang berasal dari Sumatra Utara. 
+          Tarian ini umumnya dipertunjukkan dalam berbagai acara adat, upacara pernikahan, dan festival budaya.
+          Tor-Tor melibatkan gerakan yang anggun dan simbolik yang menggambarkan berbagai aspek kehidupan
           </p>
   
           <br />
@@ -94,106 +91,64 @@ export const MedanModule: React.FC = () => {
   
   
           </div>
-          <h3 className="text-purple-light text-center lg:text-display-medium text-display-small font-bold mr-3 md:my-0 my-auto">
-              Ditengah perjalanan Kirana lapar dan ingin mencari makanan khas dari Kota Semarang <p className="inline"></p></h3>
-              <p className="text-left text-center lg:text-xl md:text-xl text-lg mt-2">
-              Kirana merasakan rasa lapar yang menggelora, dan saat ini, hasratnya terarah pada 
-              cita rasa autentik kota Semarang. Terbayang di pikirannya adalah lumpia khas Semarang, 
-              dengan isian rebung yang lembut dan nikmat. Lumpia ini, selain lezat, juga memiliki sejarah 
-              panjang yang mencerminkan kekayaan kuliner kota tersebut. Fakta Menarik tentang Lumpia adalah makanan ini
-              berasal dari akulturasi budaya Tionghoa dan Jawa di kota Semarang.
-              </p>
-              <Image
-                width={550}
-                height={450}
-                className="rounded-t-lg relative drop-shadow-md w-[60%] lg:w-[50%] mx-auto lg:p-6 p-2 md:mt-2 rounded-2xl"
-                src="/assets/images/lumpia.svg"
-                alt='Explore'  
-              />
-              <Button
-                  className="bg-purple-light hover:text-purple-light hover:bg-purple-lightest md:mx-auto mx-auto w-[20%]"
-                  href="https://sdnsadeng03.dikdas.semarangkota.go.id/page/kuliner-semarang">Ingin tau makanan khas semarang yang lain?</Button>
-  
-      <div className=" w-12/12 lg:pt-10 md:pt-28 pt-24">
+          <div className="w-10/12 lg:pt-10 md:pt-28 pt-24 mx-auto">
           <ToastContainer />
           <div className="flex lg:flex-row flex-col justify-center items-center">
-          <Image
-              width={350}
-              height={350}
-              className="rounded-t-lg relative w-[20%] lg:w-[30%] mx-auto lg:p-50 p-1 md:mt-5 rounded-2xl"
-              src="/assets/images/kkaget.svg"
-              alt='Explore'  
-            /> 
+        
   
-              <div className="flex flex-col mt-8">
+          <div className="lg:w-1/2 flex flex-col mt-8">
                 <h1 className="text-grey-dark lg:text-display-medium text-display-small font-bold mr-3 md:my-0 my-auto">
-                  Tarian Daerah <p className="inline"></p>
+                  Tari Tor-tor <p className="inline"></p>
                 </h1>
   
                 <p className="text-left lg:text-xl md:text-xl text-lg mt-5">
-                  Kirana melanjutkan perjalanan dengan menuju ke suatu sanggar tari dan melihat orang yang sedang berlatih.
-                  Ternyata mereka melakukan Tari Semarangan yang merupakan tarian khas daerah Semarang. Tapi Kirana juga
-                  ingin menunjukkan tarian tersebut kepada kalian.
+                Tari Tor-tor adalah tarian tradisional yang berasal dari Sumatra Utara, tepatnya dari suku Batak. 
+                Tarian ini sudah ada sejak abad ke-13 dan biasanya dilakukan pada ritual-ritual tertentu, seperti pesta 
+                pernikahan, kematian, syukuran, hingga upacara penyembuhan orang sakit.Tari Tor-tor biasanya ditampilkan oleh sekelompok penari pria atau wanita, dengan jumlah penari bisa bervariasi. 
+                Penari mengenakan pakaian adat Batak yang lengkap, termasuk ulos, kain sarung, dan topi khas Batak.Gerakan 
+                tari Tor-tor sangat sederhana, tetapi memiliki makna yang mendalam. Gerakan-gerakan tersebut biasanya melambangkan 
+                rasa syukur, kegembiraan, dan kesedihan.Musik pengiring tari Tor-tor adalah gondang, yaitu alat musik 
+                tradisional khas Sumatra Utara. Gondang biasanya dimainkan oleh sembilan orang pemain, yang terdiri dari pemain gong, gendang, suling, dan alat musik lainnya.
+                Tari Tor-tor merupakan salah satu kekayaan budaya Indonesia yang harus dilestarikan. Tarian ini tidak hanya indah, tetapi juga sarat makna.
                 </p>
   
                 <br />
                 <br />
               </div>
-              <Image
-              width={350}
-              height={350}
-              className="rounded-t-lg relative w-[10%] lg:w-[30%] mx-auto lg:p-50 p-1 md:mt-5 rounded-2xl"
-              src="/assets/images/kkaget.svg"
-              alt='Explore'  
-            /> 
-  
-            </div>
-            <iframe
+              <div className="lg:w-1/2 flex flex-col mt-8">
+              <iframe
                 className="mx-auto w-full lg:max-w-xl h-64 rounded-lg sm:h-96 shadow-xl mt-8"
-                src="https://www.youtube.com/embed/lftZ50gP7gw"
+                src="https://www.youtube.com/embed/ej0JZ27m3LY"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
-  
-          <h3 className="text-purple-light text-center lg:text-display-medium text-display-small font-bold mr-3 md:my-10 my-auto">
-          Batik Gemawang si Cantik dari Semarang <p className="inline"></p></h3>
-              <p className="text-left text-center lg:text-xl md:text-xl text-lg mt-2">
-              Kirana merasa keterpukau oleh keunikan budaya kota ini dan memutuskan untuk pulang 
-              dengan kenangan yang berkesan. Tidak ingin melewatkan peluang untuk membawa pulang 
-              potongan budaya Semarang, Kirana memutuskan untuk berkunjung ke Batik Gemawang, tempat 
-              di mana keindahan batik khas Semarang diwujudkan.Batik Gemawang merupakan salah satu 
-              produsen batik terkemuka di Semarang yang terkenal dengan desainnya yang elegan dan khas.
-               Batik Gemawang menciptakan motif batik yang menggambarkan kearifan lokal dan sejarah kota 
-               Semarang. Motif-motifnya yang unik dan warna-warna yang cerah mencerminkan keindahan budaya 
-               Jawa yang mendalam.
-              </p>
-              <div className="flex lg:flex-row flex-col justify-center items-center">
-              <Image
-              width={350}
-              height={350}
-              className="rounded-t-lg relative w-[10%] lg:w-[30%] mx-auto lg:p-50 p-1 md:mt-5 rounded-2xl"
-              src="/assets/images/gemawang1.svg"
-              alt='Explore'  
-            /> 
-            <Image
-              width={350}
-              height={350}
-              className="rounded-t-lg relative w-[10%] lg:w-[30%] mx-auto lg:p-50 p-1 md:mt-5 rounded-2xl"
-              src="/assets/images/gemawang2.svg"
-              alt='Explore'  
-            /> 
-            <Image
-              width={350}
-              height={350}
-              className="rounded-t-lg relative w-[10%] lg:w-[30%] mx-auto lg:p-50 p-1 md:mt-5 rounded-2xl"
-              src="/assets/images/gemawang3.svg"
-              alt='Explore'  
-            /> 
               </div>
-          
+              
+  
+            </div>
           </div>
+          
+
+          <h3 className="text-purple-light text-center lg:text-display-medium text-display-small font-bold mr-3 md:my-0 my-auto">
+              Di akhir perjalanan Kirana lapar dan ingin mencari makanan khas dari Kota Medan <p className="inline"></p></h3>
+              <p className="text-left text-center lg:text-xl md:text-xl text-lg mt-2">
+              Kirana dan Agam merasakan kehangatan matahari 
+              Medan yang membangkitkan selera makan. Saat lapar mulai menghampiri, Agam dengan antusias 
+              memberikan rekomendasi kuliner khas Medan yang tak boleh dilewatkan yaitu mie gomak. Mie gomak merupakan 
+              hidangan khas Batak, dipuji karena kelezatannya yang menggoda. Dengan bumbu yang kaya dan rasa 
+              pedas yang khas, mie gomak adalah jawaban sempurna untuk memuaskan hasrat kuliner Kirana. 
+              Mereka berdua pun memutuskan untuk mengunjungi warung mie gomak terdekat, siap untuk 
+              merasakan kelezatan kuliner khas Medan ini dan melanjutkan perjalanan dengan energi yang baru ditemukan.
+              </p>
+              <Image
+                width={550}
+                height={450}
+                className="rounded-t-lg relative drop-shadow-md w-[80%] lg:w-[50%] mx-auto lg:p-6 p-2 md:mt-2 rounded-2xl"
+                src="/assets/images/miegomak.svg"
+                alt='Explore'  
+              />
               <Button
                   className="bg-purple-light hover:text-purple-light hover:bg-purple-lightest md:mx-auto mx-auto w-[30%]"
                   href="./">AYUK LANJUT KELILING INDONESIA BERSAMA KIRANA!</Button>
