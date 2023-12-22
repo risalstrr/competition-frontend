@@ -83,7 +83,7 @@ export const PodcastModule: React.FC = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-6 bg-blue-light pb-20 px-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 bg-blue-light pb-20 px-10">
         {data.map((elem: PodcastInterface) => {
           return (
             <div className="bg-[#f2f3fa] rounded-xl flex flex-col justify-center items-center">

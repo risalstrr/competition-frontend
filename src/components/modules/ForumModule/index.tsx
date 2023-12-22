@@ -581,9 +581,10 @@ export const ForumModule: React.FC = () => {
               type="submit"
               className="inline-flex items-center px-3
                py-2.5 text-sm font-medium text-center text-white bg-purple-light rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800"
-              disabled={!jwt}
+              // disabled={!jwt}
             >
-              {jwt ? 'Publish Post' : 'Login dulu!'}
+              Publish Post
+              {/* {jwt ? 'Publish Post' : 'Login dulu!'} */}
             </Button>
           </form>
 
@@ -668,7 +669,8 @@ export const ForumModule: React.FC = () => {
                               onClick={() => toast.success('Berhasil Connect')}
                               className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white hover:text-purple-lightest bg-purple-lightest rounded-lg hover:bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                             >
-                              {jwt ? 'Connect' : 'Login dulu!'}
+                              Connect
+                              {/* {jwt ? 'Connect' : 'Login dulu!'} */}
                             </button>
                           </div>
                         </div>
@@ -707,7 +709,7 @@ export const ForumModule: React.FC = () => {
                         <div className="flex w-full lg:justify-start justify-center">
                           <Button
                             className="bg-purple-light hover:bg-purple-lightest hover:text-purple-light"
-                            disabled={!jwt}
+                            // disabled={!jwt}
                             onClick={() => handleShowSection(forum.id)}
                           >
                             <span className="stroke-current">
@@ -717,7 +719,8 @@ export const ForumModule: React.FC = () => {
                                 className="h-5 w-5 mr-2"
                               />
                             </span>
-                            {jwt ? 'Reply' : 'Login dulu!'}
+                            Reply
+                            {/* {jwt ? 'Reply' : 'Login dulu!'} */}
                           </Button>
                         </div>
 

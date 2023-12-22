@@ -16,7 +16,7 @@ import { type } from 'os'
 
 export const WalletModule: React.FC = () => {
   const [open, setOpen] = useState<Boolean>(false)
-  const [total, setTotal] = useState('')
+  const [total, setTotal] = useState('222222')
   const [jenisTransaksi, setJenisTransaksi] = useState('')
   const [tanggalTransaksi, setTanggalTransaksi] = useState('')
   const [deskripsi, setDeskripsi] = useState('')
@@ -109,7 +109,7 @@ export const WalletModule: React.FC = () => {
               />
             </div>
             <DialogueCard>
-              <TextInput
+              {/* <TextInput
                 id="phone"
                 type="text"
                 placeholder="Contoh: 20000"
@@ -117,9 +117,20 @@ export const WalletModule: React.FC = () => {
                 value={total}
                 onChange={(e) => setTotal(e.target.value)}
               />
-              <br />
+              <br /> */}
+              <h2 className="mt-2">Judul Artikel</h2>
               <div className="relative inline-block text-left">
-                <button
+                <TextInput
+                  id="Judul Artikel"
+                  type="text"
+                  placeholder="Contoh: Artikel Budaya"
+                  required={true}
+                  value={jenisTransaksi}
+                  onChange={(e) => setJenisTransaksi(e.target.value)}
+                />
+                <br />
+
+                {/* <button
                   disabled={!jwt}
                   onClick={() => setOpen(!open)}
                   className="bg-blue-500 text-white px-4 py-2 rounded focus:outline-none focus:shadow-outline hover:bg-blue-600"
@@ -153,10 +164,10 @@ export const WalletModule: React.FC = () => {
                   </div>
                 ) : (
                   ''
-                )}
+                )} */}
               </div>
 
-              <h2 className="mt-2">Tanggal Transaksi</h2>
+              <h2 className="mt-2">Tanggal Rilis Artikel</h2>
               <TextInput
                 type="text"
                 placeholder="Contoh: tahun-bulan-tanggal"
@@ -165,7 +176,7 @@ export const WalletModule: React.FC = () => {
                 onChange={(e) => setTanggalTransaksi(e.target.value)}
               />
               <br />
-              <h2>Description</h2>
+              <h2>Deskripsi</h2>
               <TextInput
                 type="text"
                 placeholder="Contoh: Transaksi ini berupa pemasukan"
@@ -176,12 +187,13 @@ export const WalletModule: React.FC = () => {
               <br />
 
               <Button
-                disabled={!jwt}
+                // disabled={!jwt}
                 className="bg-indigo-500"
                 onClick={() => handleCreateWallet()}
                 // onClick={(e) => router.push('/auth/login')}
               >
-                {jwt ? 'Create New Transaction' : 'Login dulu!'}
+                {/* {jwt ? '' : 'Login dulu!'} */}
+                Posting Artikel
               </Button>
             </DialogueCard>
           </div>
@@ -205,12 +217,12 @@ export const WalletModule: React.FC = () => {
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     {wallet.type}
                   </h5>
-                  <p className="font-normal text-gray-700 dark:text-gray-400">
+                  {/* <p className="font-normal text-gray-700 dark:text-gray-400">
                     <span className="font-productSansBold text-purple-terong">
                       Jumlah:{' '}
                     </span>{' '}
                     {wallet.amount_of_money}
-                  </p>
+                  </p> */}
                   <p className="font-normal text-gray-700 dark:text-gray-400">
                     <span className="font-productSansBold text-purple-terong">
                       Tanggal transaksi:

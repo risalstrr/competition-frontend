@@ -80,7 +80,8 @@ export const LessonCard: React.FC<Props> = ({ lesson, className, handler }) => {
             href="https://web.whatsapp.com/"
             // disabled={!jwt || workshop.stock == 0}
           >
-            {jwt ? 'Hubungi Contact Person' : 'Login dulu!'}
+            {/* {jwt ? 'Hubungi Contact Person' : 'Login dulu!'} */}
+            Hubungi Contact Person
           </Button>
         </div>
       </div>

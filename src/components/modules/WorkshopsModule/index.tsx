@@ -51,7 +51,7 @@ export const WorkshopsModule: React.FC = () => {
                 className=" bg-purple-light w-[50%] hover:text-purple-light hover:bg-purple-lightest md:mr-auto md:mx-0 mx-auto"
                 href="#about"
               >
-                Yuk
+                Yuk, eksplor Karya Seni Indonesia!
               </Button>
             </div>
             <Image

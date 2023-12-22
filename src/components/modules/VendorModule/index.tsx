@@ -132,11 +132,12 @@ export const VendorModule: React.FC = () => {
 
               <Button
                 className="bg-indigo-500"
-                disabled={!jwt}
+                // disabled={!jwt}
                 onClick={() => handleCreateVendor()}
                 // onClick={(e) => router.push('/auth/login')}
               >
-                {jwt ? 'Buat resep baru' : 'Login dulu!'}
+                {/* {jwt ? 'Buat resep baru' : 'Login dulu!'} */}
+                Buat resep baru
               </Button>
             </DialogueCard>
           </div>
@@ -152,7 +153,7 @@ export const VendorModule: React.FC = () => {
             baru atau mengembangkan keahlian memasak!
           </p>
 
-          <div className="lg:flex lg:flex-row md:grid md:grid-cols-3 sm:grid sm:grid-cols-2 lg:p-10 justify-center mx-auto m-10 gap-5 lg:overflow-x-auto lg:w-10/12 md:w-10/12 w-full">
+          <div className="lg:grid-cols-3 lg:grid md:grid md:grid-cols-3 sm:grid sm:grid-cols-2 lg:p-10 justify-center mx-auto m-10 gap-5 lg:overflow-x-auto lg:w-10/12 md:w-10/12 w-full">
             {vendors.map((vendor) => (
               <>
                 <DialogueCard key={vendor.id} className="m-5">
@@ -174,12 +175,13 @@ export const VendorModule: React.FC = () => {
                     {vendor.product_name}
                   </p>
                   <Button
-                    disabled={!jwt}
+                    // disabled={!jwt}
                     className="bg-indigo-500"
                     onClick={() => handleDeleteVendor(vendor.id)}
                     // onClick={(e) => router.push('/auth/login')}
                   >
-                    {jwt ? 'Delete' : 'Login dulu!'}
+                    Delete
+                    {/* {jwt ? 'Delete' : 'Login dulu!'} */}
                   </Button>
                 </DialogueCard>
               </>

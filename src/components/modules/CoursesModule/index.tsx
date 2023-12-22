@@ -94,11 +94,12 @@ export const CoursesModule: React.FC = () => {
               </p>
               <br />
               <br />
+
               <Button
                 className="flex bg-purple-light w-[50%] hover:text-purple-light hover:bg-purple-lightest md:mr-auto md:mx-0 mx-auto"
                 href="#about"
               >
-                Yuk eksplor!
+                Yuk, ikutan kelas budaya!
               </Button>
             </div>
             <Image

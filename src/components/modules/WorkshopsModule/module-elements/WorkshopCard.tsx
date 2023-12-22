@@ -48,7 +48,7 @@ export const WorkshopCard: React.FC<Props> = ({
           </p>
           <p>
             <span className="font-productSansBold text-purple-terong">
-              Speaker name:{' '}
+              Nama Pelatih:{' '}
             </span>
             {workshop.speaker_name}
           </p>
@@ -61,10 +61,11 @@ export const WorkshopCard: React.FC<Props> = ({
           <Button
             className="bg-indigo-500"
             href={workshop.registration}
-            disabled={!jwt}
+            // disabled={!jwt}
             // disabled={!jwt || workshop.stock == 0}
           >
-            {jwt ? 'Join' : 'Login dulu!'}
+            {/* {jwt ? 'Join' : 'Login dulu!'} */}
+            Join
           </Button>
         </div>
       </div>
